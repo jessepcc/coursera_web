@@ -1,0 +1,87 @@
+body{
+	font-family: 'Open Sans', sans-serif;	
+}
+
+/** Header**/
+#header-nav{
+	margin:0 auto 10px;
+}
+
+.navbar-brand h1{
+	padding: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+	float: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/**End of Header**/
+
+/**Content**/
+#main-content{
+	position: relative;
+}
+.row{
+	width: 100%;
+	margin: 0px auto 0px;
+}
+
+#content-box{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #CCCCCC;
+}
+
+.menu-item{
+	padding:0px 5px 0px 5px;
+	position: relative;
+	margin:0 auto 15px;
+}
+div h2{
+	margin: 20px auto 20px;
+}
+div h3{
+	margin: 5px auto 10px;
+}
+/**End of Content**/
+
+
+
+
+/*********Extra-Extra-small device**************/
+
+@media (max-width: 479px){
+
+}
+
+/*********Extra-small device**************/
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/*********Small device**************/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*********Medium-small device**************/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*********Large-small device**************/
+@media (min-width: 1200px) {
+
+}
